@@ -1,0 +1,9 @@
+<div class="car-card">
+  <img src="assets/01.jpg" alt="Car Image">
+  <div class="car-details">
+    <h2>{{ carDetails.model }}</h2>
+    <p>Ano: {{ carDetails.year }}</p>
+    <p>KM: {{ carDetails.km }}</p>
+    <p>Preço: {{ carDetails.price | currency: 'BRL' }}</p>
+  </div>
+</div>
