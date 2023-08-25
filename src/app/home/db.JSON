@@ -1,0 +1,26 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "model": "Carro A",
+        "year": 2022,
+        "km": 10000,
+        "price": 50000
+      },
+      {
+        "id": 2,
+        "model": "Carro B",
+        "year": 2021,
+        "km": 15000,
+        "price": 45000
+      },
+      {
+        "id": 3,
+        "model": "Carro C",
+        "year": 2020,
+        "km": 20000,
+        "price": 40000
+      }
+    ]
+  }
+  

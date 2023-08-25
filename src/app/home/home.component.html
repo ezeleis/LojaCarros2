@@ -1,0 +1,12 @@
+<h1>Loja de Carros</h1>
+<div class="car-list">
+  <div *ngFor="let car of cars" class="car-card">
+    <img src="/assets/01.jpg" alt="Car Image">
+    <div class="car-details">
+      <h2>{{ car.model }}</h2>
+      <p>Ano: {{ car.year }}</p>
+      <p>KM: {{ car.km }}</p>
+      <p>Preço: {{ car.price | currency: 'BRL' }}</p>
+    </div>
+  </div>
+</div>
