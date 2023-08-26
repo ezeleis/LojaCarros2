@@ -1,0 +1,39 @@
+<div class="modal-header">
+    <h4 class="modal-title">Enviar Proposta</h4>
+    <button type="button" class="close" aria-label="Close" (click)="dismiss()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="cpf">CPF:</label>
+        <input type="text" class="form-control" id="cpf" [(ngModel)]="cpf" name="cpf" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefone:</label>
+        <input type="tel" class="form-control" id="phone" [(ngModel)]="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="offer">Oferta (BRL):</label>
+        <input type="number" class="form-control" id="offer" [(ngModel)]="offer" name="offer" required>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comentários:</label>
+        <textarea class="form-control" id="comments" [(ngModel)]="comments" name="comments" rows="4"></textarea>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="dismiss()">Cancelar</button>
+    <button type="button" class="btn btn-primary" (click)="submitForm()">Enviar Proposta</button>
+  </div>
+  

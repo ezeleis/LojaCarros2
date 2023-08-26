@@ -5,5 +5,7 @@
     <p>Ano: {{ carDetails.year }}</p>
     <p>KM: {{ carDetails.km }}</p>
     <p>Preço: {{ carDetails.price | currency: 'BRL' }}</p>
+    <button class="btn btn-primary" (click)="openProposalModal()">Comprar</button>
+
   </div>
 </div>
