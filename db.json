@@ -34,5 +34,18 @@
       "year": 2020,
       "km": 20000,
       "price": 40000
-    }]
+    }
+  ],
+  "proposals": [
+    {
+      "car": "Carro D",
+      "name": "EZ",
+      "cpf": "244.743.228-35",
+      "email": "fleispou@gmail.com",
+      "phone": "48992123163",
+      "offer": 29,
+      "comments": "sdfsdf",
+      "id": 1
+    }
+  ]
 }
